@@ -11,6 +11,7 @@ class FamilyController extends BaseController
             $this->model->full_name=validString($_POST['full-name']);
             $this->model->job=$_POST['job'];
             $this->model->family_number=$_POST['num'];
+            $this->model->cit
             $this->model->phone=$_POST['phone'];
         }
     }

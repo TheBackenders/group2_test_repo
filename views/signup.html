@@ -13,7 +13,12 @@
     choose : employee <input type="radio" name="job"> <span>   </span> other : <input type="radio" name="jop"><br>
     family members : <input type="text" name="num"><br>
     phone : <input type="text" name="phone"><br>
-
+    <select name="cities" id="">
+        <?php
+        foreach($args as $val)
+            echo '<option>'$val '</option>'
+        ?>
+    </select>
     <input type="submit" name="family-submit"><br>
 </form>
 </body>
